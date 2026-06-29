@@ -4,7 +4,7 @@
 
 - 分支：`main`
 - 基线版本：`0.2.2+5`（含钱包导入修复）
-- 远程：`https://github.com/youlanhuihui/sinpra-app.git`（需先在 GitHub 创建并 push）
+- 远程：`https://github.com/youlanhuihui/dapp.git`
 
 ## 首次推送到 GitHub（本机）
 
@@ -20,13 +20,13 @@
 
    ```powershell
    cd D:\dapp\sinpra-app\sinpra-app
-   gh repo create sinpra-app --private --source=. --remote=origin --push
+   gh repo create dapp --private --source=. --remote=origin --push
    ```
 
    若仓库已在网页上创建，则：
 
    ```powershell
-   git remote add origin https://github.com/youlanhuihui/sinpra-app.git
+   git remote add origin https://github.com/youlanhuihui/dapp.git
    git push -u origin main
    ```
 
@@ -35,7 +35,7 @@
 ## 另一台电脑拉取代码
 
 ```powershell
-git clone https://github.com/youlanhuihui/sinpra-app.git
+git clone https://github.com/youlanhuihui/dapp.git
 cd sinpra-app
 flutter pub get
 ```
