@@ -1,0 +1,43 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ephemeral/
+
+# IDE / tooling
+.idea/
+.vscode/
+.cursor/
+*.iml
+
+# Android secrets & build cache
+android/local.properties
+android/key.properties
+android/*.jks
+android/*.keystore
+android/.sign_secrets.txt
+android/.gradle/
+android/.kotlin/
+android/app/build/
+android/build/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+
+# Local source snapshots (use git history instead)
+111/
+222/
+333/
+444/
+sinpra-app/
+
+# Binaries & test artifacts
+*.apk
+*.aab
+tp_launch.png
+TokenPocket-pro.apk

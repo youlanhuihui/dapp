@@ -1,0 +1,6 @@
+# 正式签名配置（自行生成 keystore 后填写，勿提交到 git）
+# 生成：keytool -genkey -v -keystore sinpra-release.jks -keyalg RSA -keysize 2048 -validity 10000 -alias sinpra
+storePassword=your_store_password
+keyPassword=your_key_password
+keyAlias=sinpra
+storeFile=/absolute/path/to/sinpra-release.jks

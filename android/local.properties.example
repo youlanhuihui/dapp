@@ -1,0 +1,5 @@
+# 本机路径，按你电脑的 Flutter SDK 修改
+# Windows 示例：flutter.sdk=C\:\\Users\\you\\flutter
+# macOS/Linux 示例：flutter.sdk=/Users/you/flutter
+flutter.sdk=/path/to/your/flutter
+sdk.dir=/path/to/your/Android/Sdk
